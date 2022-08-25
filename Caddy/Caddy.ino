@@ -53,7 +53,7 @@ void loop() {
   //If the timer elapsed, show the next screen and loop
   if (serialMetro.check() == 1) {
   screen++;
-    if (screen >= 1)
+    if (screen >= 2)
     {
       screen = 0;
     }
